@@ -11,7 +11,7 @@ class header extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct(public $title)
     {
         //
     }
@@ -24,3 +24,4 @@ class header extends Component
         return view('components.header');
     }
 }
+
