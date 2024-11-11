@@ -3,7 +3,7 @@
 
 
     <div class="d-flex justify-content-between">
-        <div class="detailts">
+        <div class="details">
             <p>Hungarian title: {{$film["Cim_hu"]}}</p>
             <p>Premier date: {{$film["Bemutato"]}}</p>
             <p>Length: {{$film["Hossz"]}}</p>
